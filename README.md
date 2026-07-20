@@ -25,7 +25,7 @@ See [docs/your-files.md] for more.
 
 Links:
 
-- [ml_03_case.ipynb](notebooks/ml_03_case.ipynb)
+- [ml_03_jaya.ipynb](notebooks/ml_03_jaya.ipynb)
 
 ## Working Files
 
@@ -83,7 +83,7 @@ open a machine terminal in your `Repos` folder:
 
 ```shell
 # Replace username with YOUR GitHub username.
-git clone https://github.com/username/ml-03-classification
+git clone https://github.com/jaya-srini/ml-03-classification
 
 cd ml-03-classification
 code .
@@ -110,7 +110,7 @@ uvx pre-commit run --all-files
 uvx pre-commit run --all-files
 
 # run the example module to verify the environment (.venv/)
-uv run python -m mlstudio.app_case
+uv run python -m mlstudio.app_jaya
 
 # run common chores
 uv run ruff format .
